@@ -1,8 +1,27 @@
 ---
 layout: default
-title: Hank Quinlan, Horrible Cop
+title: Armor
 ---
-<div class="blurb">
-    <h1>Hi there, I'm Hank Quinlan!</h1>
-    <p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div><!-- /.blurb -->
+
+<img id="logo" src="/assets/images/ArmorWallet.png" />
+
+<div class="stealth">
+    <h1>Armor</h1>
+    <h2>Password Management for a Crypto World</h2>
+    <button id="subscribe">Subscribe to Updates</button>
+</div>
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+
+<script type="text/javascript">
+	$("#subscribe").on("click", function(){
+		require(["mojo/signup-forms/Loader"], function(L) { 
+			L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"9e6b4d2455dbd85df7696f6ec","lid":"23a509a2e9"});
+			  document.cookie = 'MCPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+  			  document.cookie = 'MCPopupSubscribed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+		});
+	});
+</script>
+
+
+<!-- /.blurb -->

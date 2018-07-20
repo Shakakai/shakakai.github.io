@@ -1,0 +1,46 @@
+
+body {
+    background-color: #181E24;
+    color: #fff;
+    font-family: "Heletica Nueue", Arial;
+    font-size: 12px;
+}
+
+#logo {
+	width: 90px;
+}
+
+.stealth {
+	width: 600px;
+	text-align: center;
+	margin: auto;
+}
+
+.stealth h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 72px;
+	color: #5A8EC0;
+}
+
+.stealth h2 {
+	font-size: 36px;
+	color: #98BDDF;
+
+}
+
+.stealth button {
+	color: #161C22;
+	background-color: #4C5966;
+	border-radius: 12px;
+	border: none;
+	font-size: 18px;
+	padding: 8px;
+}
+
+.stealth button:first {
+	margin-right: 10px;
+}
+
+.stealth button:hover {
+	background-color: #333;
+}
